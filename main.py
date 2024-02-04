@@ -26,10 +26,24 @@ class solution:
     
 def main():
     # Creating sample intervals
-    intervals = [
-        Interval(0, 30),
-        Interval(5, 10),
+   intervals = [
+        Interval(5, 30),
+        Interval(5, 10), 
         Interval(10, 15)
+        ## Example: 
+        ## Interval(5, 30),
+        ## Interval(5, 10), 
+        ## Interval(10, 15)
+        ### 5*****||***||**********************30
+        ### 5*****||10 ||  
+        ### ------||10*||****15
+      
+        ## Example: 
+        ## Interval(5, 10),
+        ## Interval(15, 30), 
+        ### 5*****10||    
+        ###  -------||---15***************30
+
     ]
     
     sol = solution()
